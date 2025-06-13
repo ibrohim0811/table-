@@ -1,0 +1,109 @@
+table{
+   border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+th ,td{
+   border: 2px solid black;
+    border-collapse: collapse;
+}
+tr{
+     border: 2px solid black;
+    border-collapse: collapse;
+}
+.No{
+    color: rgb(0, 0, 0);
+
+}
+h1{
+    background-color: rgb(0, 76, 182);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.b{
+    background-color: aquamarine;
+}
+.b2{
+    background-color: blue;
+    color: azure;
+}
+.b3{
+    background-color: green;
+    color: white;
+}
+.b4{
+    background-color: yellow;
+    color: black;
+}
+.b5{
+    background-color: gray;
+    color: black;
+}
+.b6{
+    background-color: chartreuse;
+    font-size: larger;
+}
+.b7{
+    background-color: red;
+    color: white;
+    font-size: large;
+}
+.b8{
+    background-color: gold;
+    color: black;
+    font-size: large;
+}
+.q{
+    color: white;
+    background-color: green;
+   
+}
+ul{
+    background-color: black;
+}
+button {
+    font-size: 1.4em;
+    padding: 0.6em 0.8em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #000000b4;
+  }
+  
+  .container {
+    position: relative;
+    padding: 3px;
+    background: linear-gradient(90deg, #03a9f4, #f441a5);
+    border-radius: 0.9em;
+    transition: all 0.4s ease;
+    text-align: center;
+  }
+  
+  .container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 0.9em;
+    z-index: -10;
+    filter: blur(0);
+    transition: filter 0.4s ease;
+  }
+  
+  .container:hover::before {
+    background: linear-gradient(90deg, #03a9f4, #f441a5);
+    filter: blur(1.2em);
+  }
+  .container:active::before {
+    filter: blur(0.2em);
+  }
+  body{
+    background-color: #000;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
